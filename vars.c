@@ -149,5 +149,5 @@ int replace_string(char **old, char *new)
 {
 	free(*old);
 	*old = new;
-OOA	return (1);
+	return (1);
 }
